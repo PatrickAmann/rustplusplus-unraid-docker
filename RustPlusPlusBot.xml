@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RustPlusPlusBot</Name>
+  <Repository>ghcr.io/alexemanuelol/rustplusplus</Repository>
+  <Registry>ghcr.io/alexemanuelol/rustplusplus</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/alexemanuelol/rustplusplus</Project>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/alexemanuelol/rustplusplus/master/rustplusplus.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="RPP_DISCORD_CLIENT_ID" Target="RPP_DISCORD_CLIENT_ID" Default="" Mode="" Description="Discord Application ID" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="RPP_DISCORD_TOKEN" Target="RPP_DISCORD_TOKEN" Default="" Mode="" Description="Discord Application Token" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="credentials" Target="/app/credentials" Default="/mnt/user/appdata/RustPlusPlusBot/credentials" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/RustPlusPlusBot/credentials</Config>
+  <Config Name="instances" Target="/app/instances" Default="/mnt/user/appdata/RustPlusPlusBot/instances" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/RustPlusPlusBot/instances</Config>
+  <Config Name="logs" Target="/app/logs" Default="/mnt/user/appdata/RustPlusPlusBot/logs" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/RustPlusPlusBot/logs</Config>
+  <Config Name="maps" Target="/app/maps" Default="/mnt/user/appdata/RustPlusPlusBot/maps" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/RustPlusPlusBot/maps</Config>
+</Container>
